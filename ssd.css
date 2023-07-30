@@ -1,0 +1,1250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    margin: 0 12%;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+} 
+
+nav li {
+    list-style: none;
+}
+
+nav li img {
+    width: 331px;
+    height: 56px;
+    margin-right: 14em;
+}
+
+nav li a {
+    color: #414242;
+    font-size: 15px;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+nav li a:hover {
+    border-bottom: 1px solid #414242;
+    padding-bottom: 1.5rem;
+}
+
+/* end header Faxriddin */
+
+#projects {
+    width: 100%;
+    height: 100%;
+}
+
+#projects .contaner .parent {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#projects .contaner .parent .child h3 {
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0 0 20px;
+    top: 31%;
+    left: 15%;
+    position: absolute;
+    z-index:10;
+}
+
+#projects .contaner .parent .child a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    top: 48%;
+    left: 18%;
+    position: absolute;
+    z-index:10;
+    transition: all 0.2s ease;
+}
+
+#projects .contaner .parent .child a:hover {
+    color: #0d50c7;
+    background-color: #fff;
+}
+
+#projects .contaner .parent .child img {
+    width: 100%;
+    height: 55%;
+}
+
+/* end projects Bexruz aka */
+
+#blocks {
+    width: 100%;
+    height: 100%;
+}
+
+#blocks .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 12%;
+}
+
+#blocks .contaner .parent .child {
+    width: calc(100%/2);
+    margin: 0 2rem;
+    width: 225px;
+    height: 245px;
+}
+
+#blocks .contaner .parent .child i {
+    color: #0d50c7;
+    font-size: 55px;
+    margin-left: 85px;
+    height: 84px;
+}
+
+#blocks .contaner .parent .child h3 {
+    color: #6c7479;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 10px;
+    height: 35px;
+}
+
+#blocks .contaner .parent .child p {
+    color: #757575;
+    font-size: 13px;
+    line-height: 23px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+#blocks .contaner .parent .child hr {
+    color: #0d50c7;
+    width: 30%;
+    margin: 20px 79px;
+    border-color: #0d50c7;
+    border-width: 1.5px;
+}
+
+/* end blocks Usmon aka */
+
+#onclick .container {
+    margin: 7% 16%;
+}
+
+#onclick .container #diva {
+    text-align: center;
+    margin-left: 4%;
+}
+#onclick .container #divb {
+    margin-left: -7px !important;
+}
+
+#onclick .container .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#onclick .container .parent .child {
+    display: flex;
+}
+
+#onclick .container #diva, 
+#onclick .container #divb {
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    outline: none;
+    transition: all .2 ease;
+    width: 40%;
+}
+
+#onclick .container #diva:hover,
+#onclick .container #divb:hover {
+    color: #0d50c7;
+    border-color: #0d50c7;
+    background-color: #fff;
+}
+
+#onclick .container .parent .child #div-a,
+#onclick .container .parent .child #div-b {
+    display: flex;
+}
+
+#onclick .container .parent .child .a .children1 h3, 
+#onclick .container .parent .child .b .children1 h3 {
+    font-size: 40px;
+    margin: 0 30px 20px 30px;
+    color: #3f4244;
+    font-weight: 400;
+}
+
+#onclick .container .parent .child .a .children1 p,
+#onclick .container .parent .child .b .children1 p {
+    font-size: 14px;
+    margin: 5px 25px 20px 30px;
+    color: #6c7479;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+#onclick .container .parent .child .a .children1 a,
+#onclick .container .parent .child .b .children1 a{
+    padding: 13px 35px;
+    margin-left: 30px;
+    border: 1px solid #0d50c7;
+    color: #0d50c7;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* end onclick Faxriddin */
+
+#design {
+    background-color: #252726;
+    margin-top: -2rem;
+    padding: 80px 0 0;
+    width: 100%;
+}
+
+#design .contaner {
+    margin: 4rem 12%;
+}
+
+#design .contaner .parent .child h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+#design .contaner .parent .child hr {
+    width: 171px;
+    margin: 20px 30em;
+    border-color: #0d50c7;
+}
+
+#design .contaner .parent .child p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 70px;
+}
+
+#design .contaner .parent .child img {
+    width: 80%;
+    height: 50%;
+    margin: 0 5rem;
+    margin-bottom: -5px;
+}
+
+/* end design Fazliddin*/
+
+#blog .contaner .parent {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 12%;
+}
+
+#blog .contaner .parent .child {
+    display: flex;
+    width: 100%;
+    
+}
+
+#blog .contaner .parent .child .data {
+    display: block;
+    width: 350px;
+    text-align: right;
+    margin-right: 2rem;
+    border-right: 1px solid #989898;
+    margin-right: -7px;
+    padding-right: 45px;
+    margin-left: 19%;
+}
+
+#blog .contaner .parent .child .data span {
+    color: #0d50c7;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#blog .contaner .parent .child .data .num {
+    color: #6c7479;
+    font-size: 12px;
+}
+
+#blog .contaner .parent .child i {
+    color: #0d50c7;
+    font-size: 15px;
+    background-color: #fff;
+    height: 14px;
+}
+
+#blog .contaner .parent .child .txt {
+    width: 522px;
+    height: 153px;
+    margin-left: 2rem;
+}
+
+#blog .contaner .parent .child .txt h2 {
+    color: #414242;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0 0 10px;
+}
+
+#blog .contaner .parent .child .txt p {
+    color: #737881;
+    font-size: 12px;
+    margin: 0 0 15px;
+}
+
+#blog .contaner .parent .child .txt a {
+    color: #0d50c7;
+    font-size: 14px;
+}
+
+/* end Fazliddin */
+
+#work {
+    background-color: #f7f7f7;
+}
+
+#work .contaner {
+    margin: 0 12%;
+    padding: 80px 0 50px;
+}
+
+#work .contaner .parent {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#work .contaner .parent .child h2 {
+    color: #3f4244;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+#work .contaner .parent .child hr {
+    width: 171px;
+    border-width: 1.5px;
+    border-color: #0d50c7;
+    margin: 20px 484px;
+}
+
+#work .contaner .parent .child p {
+    color: #6c7479;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+#work .contaner .parent .child .btn {
+    margin-left: 9%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#work .contaner .parent .child .btn a {
+    color: #414242;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: all .2s ease;
+}
+
+#work .contaner .parent .child .btn a:hover {
+    border: 1px solid #0d50c7;
+}
+
+#work .contaner .parent .child .child_1 {
+    display: flex;
+}
+
+#work .contaner .parent .child .cihld_1 .children .img {
+    padding: 40px 10px;
+}
+
+#work .contaner .parent .child .child_1 .children .img {
+    display: block;
+    border: 4px solid #e4dfdf;
+    padding: 13px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.2s ease-in-out ;
+}
+
+#work .contaner .parent .child .child_1 .children .img:hover {
+    border: 4px solid #0d50c7;
+}
+
+#work .contaner .parent .child .child_1 .children .img img {
+    margin: 40px 0;
+    margin-right: 10px;
+}
+
+#work .contaner .parent .child .child_1 .children h3 {
+    color: #414242;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 33px;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+#work .contaner .parent .child .child_1 .children hr {
+    width: 70px;
+    margin: 20px 144px;
+}
+
+#work .contaner .parent .child .child_1 .children p {
+    color: #9da7ac;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#work .contaner .parent .child .child_1 .children{
+    width: 368px;
+    height: 464px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #f7f7f7;
+}
+
+/* end workFazliddin */
+
+#dark-blocks {
+    background-color: #131316;
+    width: 100%;
+}
+
+#dark-blocks .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 12%;
+}
+
+#dark-blocks .contaner .parent .child {
+    width: calc(100%/4);
+    margin: 1rem;
+}
+
+#dark-blocks .contaner .parent .child i {
+    color: #0d50c7;
+    font-size: 55px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+#dark-blocks .contaner .parent .child:nth-child(2) i {
+    margin-left: 5rem;
+}
+
+#dark-blocks .contaner .parent .child:nth-child(3) i {
+    margin-left: 3rem;
+}
+
+#dark-blocks .contaner .parent .child h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+}
+
+#dark-blocks .contaner .parent .child p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 3rem;
+}
+
+#dark-blocks .contaner .parent .child:nth-child(4) h3 {
+    margin-left: 2.5rem;
+}
+
+/* end dark-blocks Anvar aka */
+
+#about {
+    width: 100%;
+}
+
+#about .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem 12%;
+}
+
+#about .contaner .parent .child:nth-child(1){
+    height: 18.3rem;
+} 
+
+#about .contaner .parent .child .img img {
+    width: 65%;
+    height: 21%;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+#about .contaner .parent .child {
+    width: 50%;
+    height: 40%;
+    margin-right: 15px;
+    border: 1px solid #e4dfdf;
+    padding: 25px;
+}
+
+#about .contaner .parent .child h3 {
+    color: #3f4244;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px;
+}
+
+#about .contaner .parent .child p {
+    color: #929ba0;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+/* end about Muhammadamin*/
+
+#contacts {
+    background-color: #131316;
+}
+
+#contacts .container {
+    margin: 0 12%;
+}
+
+#contacts .container .parent {
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts .container .parent .child {
+    text-align: center;
+    padding-top: 6%;
+}
+
+#contacts .container .parent .child h3 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1.5%;
+}
+
+#contacts .container .parent .child p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 6%;
+    padding-top: 1.8%;
+}
+
+#contacts .container .parent .child hr {
+    width: 170px;
+    text-align: center;
+    margin-left: 42.5%;
+}
+
+#contacts .container .parent .child .children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    margin: 0 10%;
+}
+
+#contacts .container .parent .child .children input {
+    width: 30%;
+    height: 2rem;
+    padding: 6px 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 2%;
+    font-size: 14px;
+}
+
+#contacts .container .parent .child .text {
+    padding: 6px 12px;
+    padding-bottom: 20px;
+    height: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 59.4%;
+    margin-left: 3px;
+    margin-top: 1.4rem;
+    font-size: 14px;
+}
+
+#contacts .container .parent .child .submit {
+    background-color: transparent;
+    padding: 13px 35px;
+    border: 1px solid #0d50c7;
+    color: #0d50c7;
+    font-size: 18px;
+    margin-top: 2%;
+    font-weight: 600;
+    margin-bottom: 9%;
+    transition: all .2s ease;
+}
+
+#contacts .container .parent .child .submit:hover {
+    background-color: #fff;
+}
+
+#contacts img {
+    width: 100%;
+    height: 50vh;
+}
+
+/* end footer Faxriddin */
+
+@media screen and (max-width:768px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }  
+    body {
+        width: 100%;
+        height: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav li img {
+        width: 100%;
+    }
+    nav li a {
+        display: none;
+    }
+    /* end header */
+    #projects .contaner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    #projects .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #projects .contaner .parent .child {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #projects .contaner .parent .child h3 {
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 1.2;
+        top: 15%;
+        left: 5%;
+        position: absolute;
+    }
+    #projects .contaner .parent .child a {
+        font-size: 14px;
+        font-weight: bold;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 4px 10px;
+        top: 26%;
+        left: 8%;
+        position: absolute;
+        z-index:10;
+        transition: all 0.2s ease;
+    }
+    #projects .contaner .parent .child a:hover {
+        color: #0d50c7;
+        background-color: #fff;
+    }
+    #projects .contaner .parent .child img {
+        width: 100%;
+        height: 14%;
+        margin: 0;
+        padding: 0;
+    }
+    /* end projects */
+    #blocks .contaner {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    #blocks .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    #blocks .contaner .parent .child {
+        margin: 15px 2rem;
+        width: 225px;
+        height: 245px;
+    }
+    #blocks .contaner .parent .child i {
+        color: #0d50c7;
+        font-size: 55px;
+        margin-left: 85px;
+        height: 84px;
+    }
+    #blocks .contaner .parent .child:last-child i {
+        margin-left: 6.4rem;
+    }
+    #blocks .contaner .parent .child h3 {
+        color: #6c7479;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin: 0 0 10px;
+        height: 35px;
+    }
+    #blocks .contaner .parent .child p {
+        color: #757575;
+        font-size: 13px;
+        line-height: 23px;
+        margin: 0 0 10px;
+        text-align: center;
+    }
+    #blocks .contaner .parent .child hr {
+        color: #0d50c7;
+        width: 43%;
+        margin: 15px 65px;
+        border-color: #0d50c7;
+        border-width: 1.5px;
+    }
+    /* end blocks */
+    #onclick {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #onclick .container {
+        margin: 2rem 0;
+        padding: 0;
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    #onclick .container #diva {
+        text-align: center;
+        margin: 0;
+        margin-left: 0%;
+        margin-bottom: 0 !important;
+    }
+    #onclick .container #divb {
+        margin-left: 0 !important;
+    }
+    #onclick .container .parent {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+    #onclick .container .parent .child {
+        display: block;
+    }
+    #onclick .container #diva, 
+    #onclick .container #divb {
+        font-size: 15px;
+        padding: 10px 15px;
+        outline: none;
+        width: 100%;
+        transition: all .2 ease;
+    }
+    #onclick .container #diva:hover,
+    #onclick .container #divb:hover {
+        color: #0d50c7;
+        border-color: #0d50c7;
+        background-color: #fff;
+    }
+    #onclick .container .parent .child .a .children1 img, 
+    #onclick .container .parent .child .b .children1 img {
+        display: none;
+    }
+    #onclick .container .parent .child .a .children1 h3, 
+    #onclick .container .parent .child .b .children1 h3 {
+        font-size: 25px;
+        margin: 0 0 25px;
+        color: #3f4244;
+        text-align: center;
+        font-weight: 400;
+    }
+    #onclick .container .parent .child .a .children1 p,
+    #onclick .container .parent .child .b .children1 p {
+        font-size: 14px;
+        margin: 0 0 10px;
+        color: #6c7479;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+    #onclick .container .parent .child .a .children1 a,
+    #onclick .container .parent .child .b .children1 a{
+        padding: 13px 35px;
+        border: 1px solid #0d50c7;
+        color: #0d50c7;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 25%;
+    }
+    /* end onclick */
+    #design {
+        background-color: #252726;
+        margin-top: 15px;
+        padding: 80px 0 0;
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    #design .contaner .parent .child h2 {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 1.1;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+    #design .contaner .parent .child hr {
+        width: 171px;
+        margin: 20px 4.5em;
+        border-color: #0d50c7;
+    }
+    #design .contaner .parent .child p {
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    #design .contaner .parent .child img {
+        width: 100%;
+        height: 193px;
+        margin: 0 5px;
+        margin-bottom: -5px;
+    }
+    /* end design */
+    #blog {
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    #blog .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+    }
+    #blog .contaner .parent .child {
+        display: flex;
+        width: 100%;
+        margin-left: 5px;
+        
+    }
+    #blog .contaner .parent .child:last-child {
+        margin-left: 7px;
+    }
+    #blog .contaner .parent .child .data {
+        display: block;
+        width: 200px;
+        text-align: right;
+        border-right: 1px solid #989898;
+        margin-right: -7px;
+        margin-left: -3.5rem;
+    }
+    #blog .contaner .parent .child .data span {
+        color: #0d50c7;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+    #blog .contaner .parent .child .data .num {
+        color: #6c7479;
+        font-size: 12px;
+    }
+    #blog .contaner .parent .child i {
+        color: #0d50c7;
+        font-size: 15px;
+        background-color: #fff;
+        height: 14px;
+    }
+    #blog .contaner .parent .child .txt {
+        width: 173px;
+        height: 13rem;
+        margin-left: 2rem;
+        margin-bottom: 18rem;
+    }
+    #blog .contaner .parent .child .txt h2 {
+        color: #414242;
+        font-size: 16px;
+        font-weight: lighter;
+        margin: 0 0 10px;
+    }
+    #blog .contaner .parent .child .txt p {
+        color: #737881;
+        font-size: 12px;
+        margin: 0 0 15px;
+    }
+    #blog .contaner .parent .child .txt a {
+        color: #0d50c7;
+        font-size: 14px;
+    }
+    /* end blog */
+    #work {
+        background-color: #f7f7f7;
+        width: 100%;
+    }
+    #work .contaner {
+        margin: 0 12%;
+        padding: 80px 0 50px;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    #work .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #work .contaner .parent .child {
+        display: block;
+        width: 100%;
+    }
+    #work .contaner .parent .child h2 {
+        color: #3f4244;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0 0 10px;
+        text-align: center;
+    }
+    #work .contaner .parent .child hr {
+        width: 171px;
+        border-width: 1.3px;
+        border-color: #0d50c7;
+        margin: 20px 3.9rem;
+    }
+    #work .contaner .parent .child p {
+        color: #6c7479;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 0 45px;
+    }
+    #work .contaner .parent .child .btn {
+        display: block;
+        margin-left: 9%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    #work .contaner .parent .child .btn a {
+        color: #414242;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 15px 30px;
+        transition: all .2s ease;
+    }
+    #work .contaner .parent .child .btn a:hover {
+        border: 1px solid #0d50c7;
+    }
+    #work .contaner .parent .child .child_1 {
+        display: block;
+        margin-left: -25px;
+    }
+    #work .contaner .parent .child .cihld_1 .children .img {
+        padding: 40px 10px;
+    }
+    #work .contaner .parent .child .child_1 .children .img {
+        display: block;
+        border: 4px solid #e4dfdf;
+        padding: 13px;
+        margin-bottom: 30px;
+        text-align: center;
+        transition: all 0.2s ease-in-out ;
+    }
+    #work .contaner .parent .child .child_1 .children .img:hover {
+        border: 4px solid #0d50c7;
+    }
+    #work .contaner .parent .child .child_1 .children .img img {
+        width: 73px;
+        height: 53px;
+        margin: 40px 0;
+    }
+    #work .contaner .parent .child .child_1 .children h3 {
+        color: #414242;
+        font-size: 12px;
+        font-weight: lighter;
+        height: 33px;
+        margin: 20px 0 10px;
+        text-align: center;
+    }
+    #work .contaner .parent .child .child_1 .children hr {
+        width: 70px;
+        margin: 20px 144px;
+    }
+    #work .contaner .parent .child .child_1 .children p {
+        color: #9da7ac;
+        font-size: 11px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    #work .contaner .parent .child .child_1 .children{
+        width: 368px;
+        height: 464px;
+        padding: 5px;
+        background-color: #fff;
+        border: 1px solid #f7f7f7;
+    }
+    /* end work */
+    #dark-blocks {
+        background-color: #131316;
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #dark-blocks .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    
+    #dark-blocks .contaner .parent .child {
+        width: 100%;
+        margin: 1%;
+    }
+    
+    #dark-blocks .contaner .parent .child i {
+        color: #0d50c7;
+        font-size: 55px;
+        margin-top: 15px;
+        margin-bottom: 5%;
+        margin-left: 8%;
+        text-align: center;
+    }
+    #dark-blocks .contaner .parent .child:first-child i {
+        margin-left: 45%;
+    }
+    #dark-blocks .contaner .parent .child:nth-child(2) i {
+        margin-left: 45%;
+    }
+    #dark-blocks .contaner .parent .child:nth-child(3) i {
+        margin-left: 45%;
+    }
+    #dark-blocks .contaner .parent .child:last-child i {
+        margin-left: 45%;
+    }
+    #dark-blocks .contaner .parent .child h3 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: lighter;
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    #dark-blocks .contaner .parent .child p {
+        color: #fff;
+        font-size: 12px;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    #dark-blocks .contaner .parent .child:nth-child(4) h3 {
+        margin-left: 0rem;
+    }
+    
+    /* end dark-blocks */
+    
+    #about {
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #about .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about .contaner .parent .child .img img {
+        width: 95%;
+        height: 90%;
+        margin-left: 0.8rem;
+        margin-top: -7px;
+    }
+    
+    #about .contaner .parent .child:nth-child(1){
+        height: 15vh;
+    }
+
+    #about .contaner .parent .child {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-right: 15px;
+        border: 1px solid #e4dfdf;
+        padding: 25px;
+        margin-bottom: 1rem;
+    }
+    
+    #about .contaner .parent .child h3 {
+        color: #3f4244;
+        font-size: 30px;
+        font-weight: lighter;
+        margin: 0 0 10px;
+    }
+    
+    #about .contaner .parent .child p {
+        color: #929ba0;
+        font-size: 13px;
+        margin: 0 0 10px;
+    }
+    
+    /* end about */
+
+    #contacts {
+        background-color: #131316;
+    }
+    
+    #contacts .container {
+        margin: 0 12%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #contacts .container .parent {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contacts .container .parent .child {
+        text-align: center;
+        padding-top: 6%;
+    }
+    
+    #contacts .container .parent .child h3 {
+        color: #ffffff;
+        margin-left: -15px  ;
+        font-size: 40px;
+        font-weight: 500;
+        padding-bottom: 1.5%;
+    }
+    
+    #contacts .container .parent .child p {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 6%;
+        padding-top: 1.8%;
+    }
+    
+    #contacts .container .parent .child hr {
+        width: 170px;
+        text-align: center;
+        margin-left: 15%;
+    }
+    
+    #contacts .container .parent .child .children {
+        display: block;
+    }
+    
+    #contacts .container .parent .child .children input {
+        display: block;
+        width: 34%;
+        height: 2rem;
+        padding: 6px 13px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    
+    #contacts .container .parent .child .text {
+        padding: 6px 12px;
+        padding-bottom: 20px;
+        height: 3rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 80%;
+        margin-left: -15px;
+        margin-top: 1.4rem;
+        font-size: 14px;
+    }
+    
+    #contacts .container .parent .child .submit {
+        background-color: transparent;
+        padding: 13px 35px;
+        border: 1px solid #0d50c7;
+        color: #0d50c7;
+        font-size: 18px;
+        margin-top: 2%;
+        font-weight: 600;
+        margin-bottom: 9%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 110% !important;
+    }
+}

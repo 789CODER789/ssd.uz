@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav {
+    margin: 0 12%;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+nav li {
+    list-style: none;
+}
+
+nav li img {
+    width: 331px;
+    height: 56px;
+    margin-right: 14em;
+}
+
+nav li a {
+    color: #414242;
+    font-size: 15px;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+nav li a:hover {
+    border-bottom: 1px solid #414242;
+    padding-bottom: 1.5rem;
+}
+
+/* end header Faxriddin */
+
+#img .contaner .parent .child {
+    width: 100%;
+    height: 216px;
+}
+
+#img .contaner .parent .child img {
+    width: 100%;
+    height: 100%;
+}
+
+/* end img Fazliddin */
+
+#work .contaner .btn {
+    background-color: #131316;
+    padding: 25px  12px;
+}
+
+#work .contaner .btn button:first-child{
+    margin-left: 18%;
+}
+
+#work .contaner .btn button {
+    padding: 15px 25px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    transition: all .2s ease;
+}
+
+#work .contaner .btn button:hover {
+    border: 1px solid #0d50c7;
+}
+
+#work .contaner .parent .child {
+    margin: 2rem 12rem;
+}
+
+#work .contaner .parent .child .child_1 {
+    display: flex;
+}
+
+#work .contaner .parent .child .cihld_1 .children .img {
+    padding: 40px 10px;
+}
+
+#work .contaner .parent .child .child_1 .children .img {
+    display: block;
+    border: 4px solid #e4dfdf;
+    padding: 13px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.2s ease-in-out ;
+}
+
+#work .contaner .parent .child .child_1 .children .img:hover {
+    border: 4px solid #0d50c7;
+}
+
+#work .contaner .parent .child .child_1 .children .img img {
+    margin: 40px 0;
+    margin-right: 10px;
+}
+
+#work .contaner .parent .child .child_1 .children h3 {
+    color: #414242;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 33px;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+#work .contaner .parent .child .child_1 .children hr {
+    width: 70px;
+    margin: 20px 144px;
+}
+
+#work .contaner .parent .child .child_1 .children p {
+    color: #9da7ac;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#work .contaner .parent .child .child_1 .children {
+    width: 368px;
+    height: 464px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #f7f7f7;
+}
+
+/*end work Faxriddin */
+
+#dark-blocks {
+    background-color: #131316;
+    width: 100%;
+}
+
+#dark-blocks .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 12%;
+}
+
+#dark-blocks .contaner .parent .child {
+    width: calc(100%/4);
+    margin: 1rem;
+}
+
+#dark-blocks .contaner .parent .child i {
+    color: #0d50c7;
+    font-size: 55px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+#dark-blocks .contaner .parent .child:nth-child(2) i {
+    margin-left: 5rem;
+}
+
+#dark-blocks .contaner .parent .child:nth-child(3) i {
+    margin-left: 3rem;
+}
+
+#dark-blocks .contaner .parent .child h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+}
+
+#dark-blocks .contaner .parent .child p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 3rem;
+}
+
+#dark-blocks .contaner .parent .child:nth-child(4) h3 {
+    margin-left: 2.5rem;
+}
+
+/* end dark-blocks Anvar aka */
+
+#about {
+    width: 100%;
+}
+
+#about .contaner .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5rem 12%;
+}
+
+#about .contaner .parent .child .img img {
+    width: 331px;
+    height: 56px;
+    margin-top: 7rem;
+    margin-left: 5.8rem;
+}
+
+#about .contaner .parent .child {
+    width: 553px;
+    height: 327px;
+    margin-right: 15px;
+    border: 1px solid #e4dfdf;
+    padding: 25px;
+}
+
+#about .contaner .parent .child h3 {
+    color: #3f4244;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px;
+}
+
+#about .contaner .parent .child p {
+    color: #929ba0;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+/* end about Muhammadamin */
+
+
+#contacts {
+    background-color: #131316;
+}
+
+#contacts .container {
+    margin: 0 12%;
+}
+
+#contacts .container .parent {
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts .container .parent .child {
+    text-align: center;
+    padding-top: 6%;
+}
+
+#contacts .container .parent .child h3 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 1.5%;
+}
+
+#contacts .container .parent .child p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 6%;
+    padding-top: 1.8%;
+}
+
+#contacts .container .parent .child hr {
+    width: 170px;
+    text-align: center;
+    margin-left: 42.5%;
+}
+
+#contacts .container .parent .child .children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    margin: 0 10%;
+}
+
+#contacts .container .parent .child .children input {
+    width: 34%;
+    height: 2rem;
+    padding: 6px 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 2rem;
+    font-size: 14px;
+}
+
+#contacts .container .parent .child .text {
+    padding: 6px 12px;
+    padding-bottom: 20px;
+    height: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 59.4%;
+    margin-left: 3px;
+    margin-top: 1.4rem;
+    font-size: 14px;
+}
+
+#contacts .container .parent .child .submit {
+    background-color: transparent;
+    padding: 13px 35px;
+    border: 1px solid #0d50c7;
+    color: #0d50c7;
+    font-size: 18px;
+    margin-top: 2%;
+    font-weight: 600;
+    margin-bottom: 9%;
+}
+
+#contacts img {
+    width: 100%;
+    height: 50vh;
+}
+
+/* end footer */
+
+@media screen and (max-width:768px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }  
+    body {
+        width: 100%;
+        height: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav li img {
+        width: 100%;
+    }
+    nav li a {
+        display: none;
+    }
+    /* end header */
+    #img .contaner {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #img .contaner .parent .child {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #img .contaner .parent .child img {
+        width: 100%;
+        height: 60px;
+        object-fit:contain;
+        margin: 0;
+        padding: 0;
+    }
+    /* end img */
+    #work .contaner .btn {
+        background-color: #131316;
+        padding: 30px;
+        margin-top: -11rem;
+    }
+    #work .contaner .btn button {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 15px 30px;
+        margin-left: 15%;
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        transition: all .2s ease;
+    }
+    
+    #work .contaner .btn button:hover {
+        border: 1px solid #0d50c7;
+    }
+    
+    #work .contaner .parent .child {
+        margin: 15px;
+    }
+    
+    #work .contaner .parent .child .child_1 {
+        display: block;
+    }
+    #work .contaner .parent .child .cihld_1 .children .img {
+        padding: 40px 10px;
+    }
+    
+    #work .contaner .parent .child .child_1 .children .img {
+        display: block;
+        border: 4px solid #e4dfdf;
+        padding: 13px;
+        margin-bottom: 30px;
+        text-align: center;
+        transition: all 0.2s ease-in-out ;
+    }
+    
+    #work .contaner .parent .child .child_1 .children .img:hover {
+        border: 4px solid #0d50c7;
+    }
+    
+    #work .contaner .parent .child .child_1 .children .img img {
+        margin: 40px 0;
+        margin-right: 10px;
+    }
+    
+    #work .contaner .parent .child .child_1 .children h3 {
+        color: #414242;
+        font-size: 15px;
+        font-weight: lighter;
+        height: 33px;
+        margin: 20px 0 10px;
+        text-align: center;
+    }
+    
+    #work .contaner .parent .child .child_1 .children hr {
+        width: 70px;
+        margin: 20px 144px;
+    }
+    
+    #work .contaner .parent .child .child_1 .children p {
+        color: #9da7ac;
+        font-size: 13px;
+        font-weight: lighter;
+        text-align: center;
+    }
+    
+    #work .contaner .parent .child .child_1 .children {
+        width: 368px;
+        height: 464px;
+        padding: 5px;
+        background-color: #fff;
+        border: 1px solid #f7f7f7;
+    }
+    
+    /* end work */
+    #dark-blocks {
+        background-color: #131316;
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #dark-blocks .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    
+    #dark-blocks .contaner .parent .child {
+        width: 100%;
+        margin: 1%;
+    }
+    
+    #dark-blocks .contaner .parent .child i {
+        color: #0d50c7;
+        font-size: 55px;
+        margin-top: 15px;
+        margin-bottom: 5%;
+        margin-left: 8%;
+        text-align: center;
+    }
+    #dark-blocks .contaner .parent .child:first-child i {
+        margin-left: 7.5rem;
+    }
+    #dark-blocks .contaner .parent .child:nth-child(2) i {
+        margin-left: 8rem;
+    }
+    #dark-blocks .contaner .parent .child:nth-child(3) i {
+        margin-left: 8rem;
+    }
+    #dark-blocks .contaner .parent .child:last-child i {
+        margin-left: 7.5rem;
+    }
+    #dark-blocks .contaner .parent .child h3 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: lighter;
+        margin-left: 0rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    #dark-blocks .contaner .parent .child p {
+        color: #fff;
+        font-size: 12px;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    #dark-blocks .contaner .parent .child:nth-child(4) h3 {
+        margin-left: 0rem;
+    }
+    
+    /* end dark-blocks */
+    
+    #about {
+        width: 100%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #about .contaner .parent {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about .contaner .parent .child .img img {
+        width: 95%;
+        height: 90%;
+        margin-left: 0.8rem;
+        margin-top: -7px;
+    }
+    
+    #about .contaner .parent .child:nth-child(1){
+        height: 15vh;
+    }
+
+    #about .contaner .parent .child {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-right: 15px;
+        border: 1px solid #e4dfdf;
+        padding: 25px;
+        margin-bottom: 1rem;
+    }
+    
+    #about .contaner .parent .child h3 {
+        color: #3f4244;
+        font-size: 30px;
+        font-weight: lighter;
+        margin: 0 0 10px;
+    }
+    
+    #about .contaner .parent .child p {
+        color: #929ba0;
+        font-size: 13px;
+        margin: 0 0 10px;
+    }
+    
+    /* end about */
+    #contacts {
+        background-color: #131316;
+    }
+    
+    #contacts .container {
+        margin: 0 12%;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    #contacts .container .parent {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contacts .container .parent .child {
+        text-align: center;
+        padding-top: 6%;
+    }
+    
+    #contacts .container .parent .child h3 {
+        color: #ffffff;
+        margin-right: 35px;
+        font-size: 40px;
+        font-weight: 500;
+        padding-bottom: 1.5%;
+    }
+    
+    #contacts .container .parent .child p {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 6%;
+        padding-top: 1.8%;
+        margin-right: 35px;
+    }
+    
+    #contacts .container .parent .child hr {
+        width: 170px;
+        text-align: center;
+        margin-left: 19%;
+    }
+    
+    #contacts .container .parent .child .children {
+        display: block;
+    }
+    
+    #contacts .container .parent .child .children input {
+        display: block;
+        width: 34%;
+        height: 2rem;
+        padding: 6px 13px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-left: -3rem;
+    }
+    
+    #contacts .container .parent .child .text {
+        padding: 6px 12px;
+        padding-bottom: 20px;
+        height: 3rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 94%;
+        margin-left: -45px;
+        margin-top: 1.4rem;
+        font-size: 14px;
+    }
+    
+    #contacts .container .parent .child .submit {
+        background-color: transparent;
+        padding: 13px 35px;
+        border: 1px solid #0d50c7;
+        color: #0d50c7;
+        font-size: 18px;
+        margin-top: 2%;
+        font-weight: 600;
+        margin-bottom: 9%;
+    }
+}

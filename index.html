@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ssd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="https://www.ssd.uz/wp-content/themes/ssd_theme/img/logo.png" alt="">
+                </li>
+                <li>
+                    <a href="#">ГЛАВНАЯ</a>
+                </li>
+                <li>
+                    <a href="#">О НАС</a>
+                </li>
+                <li>
+                    <a href="ssd_portfolio.html">ПОРТФОЛИО</a>
+                </li>
+                <li>
+                    <a href="#">БЛОГ</a>
+                </li>
+                <li>
+                    <a href="#">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Faaxriddin-->
+    <section id="projects">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <h3>МЫ СОЗДАЕМ 
+                        <br>
+                        IT - ПРОЕКТЫ
+                    </h3>
+                    <a href="#">ПОДРОБНЕЕ</a>
+                </div>
+                <div class="child">
+                    <img src="https://www.ssd.uz/wp-content/themes/ssd_theme/img/slide-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Bexruz aka-->
+    <section id="blocks">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <i class="fa fa-television"></i>
+                    <h3>СОЗДАНИЕ САЙТОВ</h3>
+                    <hr>
+                    <p>Сайт визитка Корпоративный сайт Бизнес сайт Лендинг (Одностраничник) Интернет магазин</p>
+                </div>
+                <div class="child">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <h3>СОЗДАНИЕ ДИЗАЙНА</h3>
+                    <hr>
+                    <p>Создание логотипа Создание фирменного стиля Создание рекламных модулей Создание наружней рекламы</p>
+                </div>
+                <div class="child">
+                    <i class="fa fa-laptop"></i>
+                    <h3>ПРОДВИЖЕНИЕ САЙТОВ</h3>
+                    <hr>
+                    <p>SEO оптимизация и продвижение сайтов Реклама в Google Adwords и Яндекс Директ SMM - раскрутка в социальных сетях</p>
+                </div>
+                <div class="child">
+                    <i class="fa fa-mobile"></i>
+                    <h3>СОЗДАНИЕ МОБИЛЬНЫХ ПРИЛОЖЕНИЙ</h3>
+                    <hr>
+                    <p>Разработка приложений под iOS Разработка приложений под Android</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Usmon aka-->
+    <section id="onclick">
+        <div class="container">
+            <button id="diva">СОЗДАНИЕ САЙТОВ</button>
+            <button id="divb">СОЗДАНИЕ МОБИЛЬНЫХ ПРИЛОЖЕНИЙ</button>
+            <div class="parent">
+                <div class="child">
+                    <div id="div-a" class="a">
+                        <div class="children1">
+                            <img src="https://www.ssd.uz/wp-content/themes/ssd_theme/img/mobile-2.jpg" alt="" class="img" style="width: 368px; height: 550px;">
+                        </div>
+                        <div class="children1">
+                            <h3>СОЗДАНИЕ САЙТОВ</h3>
+                            <p>Ваши мечты становятся реальностью! Всего за один день Вы можете стать обладателем собственного сайта в сети Интернет. Создание недорогих и качественных сайтов, а также их последующее обслуживание и продвижение - основной вид нашей деятельности. <br><br> Профессиональное создание сайта состоит из многих этапов: постановка бизнес-задачи, сбор информации, анализ конкурентов, разработка визуальной концепции сайта и техническая реализация. Это процесс, требующий участия целой команды профессионало.</p>
+                            <a href="">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                    <div id="div-b" class="b" style="display: none;">
+                        <div class="children1">
+                            <img src="https://www.ssd.uz/wp-content/themes/ssd_theme/img/mobile.jpg" alt="" class="img" style="width: 370px; height: 508px;">
+                        </div>
+                        <div class="children1">
+                            <h3>СОЗДАНИЕ МОБИЛЬНЫХ ПРИЛОЖЕНИЙ</h3>
+                            <p>Мы создаем мобильные приложения и сайты как инструмент, который приносит бизнесу измеримую пользу. Мы используем наш уникальный опыт и знания, чтобы создавать интересные и качественные продукты. Мы берем на себя полный цикл разработки мобильных приложений и сайтов, от проектирования интерфейсов до разработки серверной части.</p>
+                            <a href="">ПОДРОБНЕЕ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        let btna = document.querySelector('#diva')
+        let btnb = document.querySelector('#divb')
+        let btn_a = document.querySelector('#div-a')
+        let btn_b = document.querySelector('#div-b')
+
+        btna.addEventListener('click', () => {
+            btn_a.style.display='flex'
+            btn_b.style.display='none'
+        })
+
+        btnb.addEventListener('click', () => {
+            btn_a.style.display='none'
+            btn_b.style.display='flex'
+        })
+    </script>
+    <!--Faxriddin-->
+    <section id="design">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <h2>СОВРЕМЕННЫЙ ДИЗАЙН</h2>
+                    <hr>
+                    <p>Наша компания создает сайты, учитывая все современные тенденции и разработки веб-сайтов для малых и крупных компаний. Современный дизайн сайта— средство привлечения аудитории.</p>
+                    <img src="https://www.ssd.uz/wp-content/themes/ssd_theme/img/img-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fazliddin-->
+    <section id="blog">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <div class="data">
+                        <span>ПРОФЕССОР ПСИХОЛОГИИ</span>
+                        <p class="num">Сентябрь 2017</p>
+                    </div>
+                    <i class="fa fa-circle-thin"></i>
+                    <div class="txt">
+                        <h2>РАЗРАБОТКА ВЕБ ПРИЛОЖЕНИЯ ДЛЯ LINDA GRAHAM</h2>
+                        <p>Я всю жизнь увлечена учебой и ростом, направляя людей на пути личного роста и самопреобразования - исцеление и пробуждение - всю мою профессиональную жизнь. Моя работа направлена на то, чтобы помогать людям укреплять способности справляться с вызовами в жизни, иметь чувство собственного достоинства, дружить с собственным здоровьем посредством работы над собой.</p>
+                        <a href="#">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="data">
+                        <span>ПРОИЗВОДИТЕЛЬ ПРОГРЕССИВНЫХ МАТЕРИАЛОВ</span>
+                        <p class="num">Август 2017</p>
+                    </div>
+                    <i class="fa fa-circle-thin"></i>
+                    <div class="txt">
+                        <h2>AXIOM MATERIALS - РАЗРАБОТКА И ПРОДВИЖЕНИЕ САЙТА</h2>
+                        <p>Сайт для производителя прогрессивных композитных материалов, созданным с целью сочетания качественной препреговой, адгезивной и вспомогательной композитной платформы. Ориентация на клиента и  качественное обслуживанием делает компанию "Axiom Materials" видным игроком.</p>
+                        <a href="#">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="data">
+                        <span>ТЕХНОЛОГИИ СОЛНЦА</span>
+                        <p class="num">Август 2017</p>
+                    </div>
+                    <i class="fa fa-circle-thin"></i>
+                    <div class="txt">
+                        <h2>СОЛНЕЧНЫЙ САЙТ ДЛЯ КОМПАНИИ - "KURIOS ENERGY"</h2>
+                        <p>Компания Kurios Energy является поставщиком услуг солнечной энергии с полным спектром услуг</p>
+                        <a href="#">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="data">
+                        <span>Kevita - НАПИТКИ ЖИЗНИ</span>
+                        <p class="num">Август 2017</p>
+                    </div>
+                    <i class="fa fa-circle-thin"></i>
+                    <div class="txt">
+                        <h2>KEVITA - РАЗРАБОТКА САЙТА ДЛЯ ПОПУЛЯРНОГО НАПИТКА</h2>
+                        <p>Напитки из натуральных компонентов сделаны с пользой для Здоровья. Чтобы сделать это, мы согласовали наши методы обработки с самыми высокими стандартами производства. Мы ценим историю общения с каждым клиентом.</p>
+                        <a href="#">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="data">
+                        <span>САЙТ СТРАХОВОЙ КОМПАНИИ</span>
+                        <p class="num">Июль 2017</p>
+                    </div>
+                    <i class="fa fa-circle-thin"></i>
+                    <div class="txt">
+                        <h2>РАЗРАБОТКА САЙТА ДЛЯ СТРАХОВОЙ КОМПАНИИ«XALQ SUG'URTA»</h2>
+                        <a href="#">Подробнее...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fazliddin-->
+    <section id="work">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <h2>НАШИ РАБОТЫ</h2>
+                    <hr>
+                    <p>
+                        Мы создаем мобильные приложения и сайты как инструмент, который приносит бизнесу измеримую пользу. Мы используем
+                        <br>
+                        наш уникальный опыт и знания, чтобы создавать интересные и качественные продукты. Мы берем на себя полный цикл
+                        <br>
+                        разработки мобильных приложений и сайтов, от проектирования интерфейсов до разработки серверной части.
+                    </p>
+                </div>
+                <div class="child">
+                    <div class="btn">
+                        <a href="ssd_portfolio.html">ВСЕ</a>
+                        <a href="ssd_portfolio.html">СОЗДАНИЕ САЙТОВ</a>
+                        <a href="ssd_portfolio.html">СОЗДАНИЕ ДИЗАЙНА</a>
+                        <a href="ssd_portfolio.html">ПРОДВИЖЕНИЕ САЙТОВ</a>
+                        <a href="ssd_portfolio.html">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</a>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="child_1">
+                        <div class="children">
+                            <span class="img">
+                                <img src="https://www.ssd.uz/wp-content/uploads/2016/07/brand-2.jpg" alt="" style="width: 280px;height: 203px;">
+                            </span>
+                            <h3>Мобильное приложение Click.uz</h3>
+                            <hr>
+                            <p>Разработка мобильного приложения CLICK.UZ</p>
+                        </div>
+                        <div class="children">
+                            <span class="img">
+                                <img src="https://www.ssd.uz/wp-content/uploads/2016/07/brand-3.jpg" alt="" style="width: 280px;height: 203px;">
+                            </span>
+                            <h3>Сервис онлайн просмотра ОNLINETV.UZ</h3>
+                            <hr>
+                            <p>Разработка мобильного приложения и сайта ONLINETV.UZ</p>
+                        </div>
+                        <div class="children">
+                            <span class="img">
+                                <img src="https://www.ssd.uz/wp-content/uploads/2016/07/brand-4-1.jpg" alt="" style="width: 280px;height: 203px;">
+                            </span>
+                            <h3>Музыкальный проект Muzix</h3>
+                            <hr>
+                            <p>Разработка мобильного приложения MUZIX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fazliddin-->
+    <section id="dark-blocks">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>245</h3>
+                    <p>ЗАВЕРШЕННЫХ ПРОЕКТОВ</p>
+                </div>
+                <div class="child">
+                    <i class="fa fa-mouse-pointer"></i>
+                    <h3>567 880</h3>
+                    <p>ПРИВЛЕЧЕННЫХ ПОСЕТИТЕЛЕЙ</p>
+                </div>
+                <div class="child">
+                    <i class="fa fa-envelope"></i>
+                    <h3>3650</h3>
+                    <p>БЛАГОДАРНЫХ ОТЗЫВОВ</p>
+                </div>
+                <div class="child">
+                    <i class="fa fa-send-o"></i>
+                    <h3>80</h3>
+                    <p>РАСКРУЧЕННЫХ ПРОЕКТОВ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Anvar aka-->
+    <section id="about">
+        <div class="contaner">
+            <div class="parent">
+                <div class="child">
+                    <span class="img">
+                        <img src="https://www.ssd.uz/wp-content/themes/ssd_theme/img/logo.png" alt="">
+                    </span>
+                </div>
+                <div class="child">
+                    <h3>О компании</h3>
+                    <p>ООО «Smart Soft Development» — компания, предоставляющая услуги интерактивных программных разработок и дизайна. Мы специализируемся на разработке программного обеспечения, создании приложений по индивидуальным заказам, дизайне, системе управления контентом, поддержке и техническом обслуживании, проектировании и разработке сервисных программах по электронной торговле для различных типов платформ.</p>
+                    <p>Качество оказываемых услуг и индивидуальный подход к каждому запросу наших клиентов — вот слагаемые успешного развития нашей компании. Миссия нашей компании — создавать качественное программное обеспечение и профессиональные веб-приложения, чтобы помочь достигать больших успехов.</p>
+                    <p>Наша цель — заслужить Ваше доверие и стать Вашим постоянным партнером.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Muhammadamin-->
+    <footer id="contacts">
+        <div class="container">
+            <div class="parent">
+                <div class="child">
+                    <h3>КОНТАКТЫ</h3>
+                    <hr color="#0d50c7">
+                    <p>Специалисты нашей компании в любое время проконсультируют Вас по вопросам разработки сайтов либо мобильных приложений</p>
+                    <div class="children">
+                        <input type="name" placeholder="Ваше имя">
+                        <input type="email" placeholder="Ваш Email">
+                    </div>
+                    <input type="text" placeholder="Сообщение" class="text"><br>
+                    <input type="submit" value="Отправить сообщение" class="submit">
+                </div>
+            </div>
+        </div>
+        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--o7Ksf3K2--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/05pwvpct4inkco6tiw5m.png" alt="">
+    </footer>
+    <!--Faxriddin-->
+</body>
+</html>
